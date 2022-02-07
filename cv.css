@@ -1,0 +1,226 @@
+body {
+    border-color: hsla(89, 43%, 51%, 0.3);
+    color : gold;
+    margin: auto;
+  
+}
+#First{
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/408/387/715/3d-abstract-black-dark-wallpaper-preview.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    min-height: 900px;
+    display: table;
+    position: relative;
+    text-align: center;
+}
+.social{
+    position: absolute;
+    margin: 0;
+}
+.social li{
+    display: inline-block;
+    margin: 30px;
+}
+#insta{
+    block-size: 100px;
+    border-radius: 50%;
+}
+#wiki{
+    block-size: 100px;
+    border-radius: 50%;
+}
+
+#Zlatan {
+    display: inline-flex;
+    margin: auto 5px;
+    float: left;
+    block-size: 450px;
+    border-radius: 50%;
+    top: 0;
+}
+
+.brag{
+    margin: auto;
+    max-width: max-content;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    text-shadow : 1px 1px 2px black;
+}
+.brag1{
+    margin: auto;
+    max-width: max-content;
+    font-size: 30px;
+    font-style: italic;
+    text-shadow : 1px 1px 2px black;
+
+
+}
+
+
+
+.Lista{
+    margin: auto;
+    max-width: max-content;
+    font-size: 40px;
+    float: left;
+    border-style: solid;
+    margin-right: 100px;
+    padding-right: 5px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#stark{text-align: center;}
+#svag{text-align: center;}
+#info{text-align: center;}
+
+h1 { color : gold; 
+     font-size : 100px;
+     text-shadow : 2px 2px 4px, white;
+     word-wrap: normal;
+
+}
+
+#Strength{display : grid;
+          list-style : none;
+}
+
+#column{
+ display: grid;
+ grid-template-columns:  1fr 1fr 1fr;
+}
+
+
+#column li{
+    display: grid;
+    border-style:ridge;
+
+}
+
+
+.ClubName{
+color: black;
+font-size: 35px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#ajax {
+    block-size: 150px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+#juventus {
+    block-size: 150px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+    
+}
+#inter {
+    block-size: 150px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+}
+#barcelona {
+    block-size: 150px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+    
+}
+#milan {
+    block-size: 150px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+}
+#psg {
+    block-size: 150px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+}
+#manutd {
+    block-size: 150px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+}
+#galaxy {
+    block-size: 150px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+}
+#sweden {
+    block-size: 150px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+}
+#malmo {    
+    block-size: 150px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+}
+#second{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/7d/Wallpaper-white-21.jpg");
+    background-position: center;
+    background-attachment: cover;
+    width: 100%;
+    height: 100%;
+    min-height: 900px;
+}
+#columntitle{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#current{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#about{
+    color: black;
+    font-size: 35px;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#end{
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/408/387/715/3d-abstract-black-dark-wallpaper-preview.jpg");
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    min-height: 900px;
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+
+
+}
+#YT{
+    position:sticky;
+    float: left;
+    
+}
+
+
+
