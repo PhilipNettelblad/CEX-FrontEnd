@@ -1,0 +1,239 @@
+body {
+    border-color: hsla(89, 43%, 51%, 0.3);
+    color: gold;
+    margin: auto;
+
+}
+
+#First {
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/408/387/715/3d-abstract-black-dark-wallpaper-preview.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    min-height: 900px;
+    display: table;
+    position: relative;
+    text-align: center;
+
+}
+
+.social {
+    position: absolute;
+    margin: 0;
+    list-style: none;
+    margin-top: 10%;
+
+}
+
+.social li {
+    display: inline-block;
+    margin: 30px;
+    list-style: none;
+
+}
+
+#insta {
+    block-size: 80px;
+    border-radius: 50%;
+}
+
+#wiki {
+    block-size: 80px;
+    border-radius: 50%;
+}
+
+#Zlatan {
+    display: inline-flex;
+    margin: auto 5px;
+    float: left;
+    block-size: 400px;
+    border-radius: 50%;
+    top: 0;
+}
+
+.brag {
+    max-width: fit-content;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    text-shadow: 1px 1px 2px black;
+}
+
+.brag1 {
+    margin-left: 30%;
+    max-width: 50%;
+    font-size: 30px;
+    font-style: italic;
+    text-shadow: 1px 1px 2px black;
+
+
+}
+
+@media screen and (max-width: 510px) {
+    #about {
+        font-size: 10px;
+
+    }
+}
+
+
+
+.Lista {
+    margin: auto;
+    max-width: max-content;
+    font-size: 20px;
+    float: left;
+    border-style: solid;
+    margin-right: 50px;
+    padding-right: 5px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media screen and (max-width: 1254px) {
+    .Lista {
+        font-size: 12px;
+
+
+    }
+}
+
+#stark {
+    text-align: center;
+}
+
+#svag {
+    text-align: center;
+}
+
+#info {
+    text-align: center;
+}
+
+h1 {
+    color: gold;
+    font-size: 75px;
+    text-shadow: 2px 2px 4px, rgb(228, 15, 15);
+    word-wrap: normal;
+    text-align: center;
+    margin-bottom: 15%;
+
+}
+
+@media screen and (max-width: 1254px) {
+    h1 {
+        font-size: 35px;
+
+    }
+}
+
+#Strength {
+    display: grid;
+    list-style: none;
+}
+
+#column {
+    margin: auto;
+    max-width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 1254px) {
+    #column {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    #column {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+
+
+#column li {
+    display: grid;
+    border-style: ridge;
+
+}
+
+
+.ClubName {
+    color: black;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#column img {
+    block-size: 120px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+
+#second {
+    background-image: url("https://i.pinimg.com/originals/90/de/6a/90de6a722188fc9a9c0835db1f0e5500.jpg");
+    background-size: 100% 100%;
+    height: 100%;
+    min-height: 900px;
+    padding: 1px;
+
+}
+
+#columntitle {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#current {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#about {
+    flex: auto;
+    color: black;
+    font-size: 18px;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#end {
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/408/387/715/3d-abstract-black-dark-wallpaper-preview.jpg");
+    width: 100%;
+    height: 100%;
+    min-height: 900px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 1px;
+
+
+}
+
+.contact {
+    list-style: none;
+}
+
+#YT {
+    position: sticky;
+    max-width: 80%;
+
+}
