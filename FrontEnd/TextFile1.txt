@@ -1,0 +1,45 @@
+# HTML - grunder
+
+https://validator.w3.org/nu/#textarea
+
+## Före lektionen
+
+- Pappersboken: kapitel 4-8 (fokus på 4 och 5)
+- MDN: [Structuring the web with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML)
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+    - [Open Chrome DevTools](https://developer.chrome.com/docs/devtools/open/)
+    - [Get Started With Viewing And Changing The DOM](https://developer.chrome.com/docs/devtools/dom/)
+
+## Under lektionen
+
+### 1. Semantiskt dokument
+Skriv semantisk HTML för något av följande:
+
+- Ditt favoritrecept
+- En annons för ditt drömjobb
+- En överblick av din favoritfilm, -bok eller -artist
+
+### 2. Sökmotorbeskrivningar
+Undersök sammanfattningarna av en hemsida som visas i sökresultaten på Google, under sidans titel. Varifrån hämtas denna text? Hämtas texten alltid från samma ställe eller är det olika för olika sökningar? Är beteendet samma på andra sökmotorer, exempelvis Bing och DuckDuckGo?
+
+### 3. Förhandsvisning av hemsidor
+Skicka en hyperlänk genom ett chattprogram eller ett socialt nätverk (exempelvis WhatsApp, Signal eller Facebook) och undersök förhandsvisningen som automatiskt infogas. Varifrån hämtas titeln, sammanfattningen och bilden till denna förhandsvisning? Undersök hemsidans HTML för att ta reda på detta (alltså hemsidan som länken pekar på). Testa med olika länkar och olika appar och se om ni kan hitta skillnader och förklara dem. Gör även efterforskningar på Google om vilka regler som apparna följer och testa om dessa stämmer.
+
+### 4. Reader view
+Vissa webbläsare, inklusive Firefox, erbjuder en "reader view" som låter användaren se enbart en hemsidas huvudinnehåll, utan menyer och liknande. Testa detta läge (eller titta på en video om det) och förklara utifrån HTML-perspektiv hur denna funktion skulle kunna fungera. Dokumentera era gissningar och testa dem på flera olika sidor.
+
+### 5. Innehållsförteckning
+Skulle det vara möjligt att lägga till en funktion i webbläsaren som automatiskt visar upp en innehållsförteckning för nuvarande hemsida? Resonera utifrån HTML-perspektiv hur detta skulle kunna fungera och eventuella begränsningar eller problem som skulle kunna uppstå.
+
+### 6. Web scraping
+Vad är *web scraping*? Sök information om detta på nätet och förklara även på vilket sätt *web scraping* skiljer sig från att söka information i en databas med SQL eller läsa in en CSV-fil.
+
+### 7. Screen readers
+En *screen reader* är en webbläsare för personer som är blinda eller har synnedsättning och som alltså läser upp innehållet verbalt istället för att presentera det visuellt. Förklara utifrån HTML-perspektiv hur en sådan skulle kunna fungera. Hur kan den exempelvis undvika att läsa upp alla menyval varje gång användaren laddar en sida och istället börja läsa direkt från huvudinnehållet? Om du har möjlighet kan du försöka installera en *screen reader* och testa.
+
+### Löpande övning: Quiz
+*Denna övning är friare än de andra och kommer att utökas löpande genom kursen, som ett slags miniprojekt att testa olika kursmoment på.*
+
+Skriv HTML för en quiz med flervalsfrågor där frågorna och deras alternativ beskrivs med lämpliga HTML-element.
+
+Till denna övning ska ni inte lägga till någon faktisk interaktivitet; detta kommer i senare övningar. Fokusera enbart på "statisk" HTML i nuläget.

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTTP</title>
+  <link rel="stylesheet" href="px.css">
+  <script src="px.js" defer></script>
+</head>
+<body>
+  <h1>PicSearcher</h1>
+  <form id="frm1" action="https://pixabay.com/api">
+    <label for=""> What are you looking for? </label><br>
+    <input type="text" name="question"><br>
+    <label for="">Filter by color: </label> <br>
+    <select id="colors" name="colors">
+      <option value="Blue">Blue</option>
+      <option value="Red">Red</option>
+      <option value="Yellow">Yellow</option>
+      <option value="Green">Green</option>
+      <option value="White">White</option>
+      <option value="Black">Black</option>
+      <option value="Pink">Pink</option>
+      <option value="Purple">Purple</option>
+      <option value="Orange">Orange</option>
+
+    </select>
+    
+  </form> 
+  
+  <button onclick="Search(0)" id='search'>Search</button>
+  <button onclick="Search(1)" id='prev'>Previous</button>
+  <button onclick="Search(2)" id='next'>Next</button>
+
+  
+  <p><span id="noResults"> </span></p>
+  <h2>Pictures</h2>
+  <ul id="pictures"></ul>
+</body>
+</html>

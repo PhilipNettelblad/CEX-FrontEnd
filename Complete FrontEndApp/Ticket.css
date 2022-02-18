@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+
+}
+
+html {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-family: Corbel, sans-serif;
+}
+#list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+h1{
+    text-align: center;
+}
+
+#screenings li{
+    display: grid;
+    grid-template: 
+    "a b"
+    "a c"
+    "a d" / auto 1fr;
+    margin: 10px;
+}
+img{
+    block-size: 120px;
+}
+#screenings img{
+    grid-area: a;
+    margin-right: 10px;
+}
+
+#screenings h3{
+    grid-area: b;
+}
+#screenings button{
+    grid-area: c;
+}
+#screenings p{
+    grid-area: d;
+}
+#end{
+    text-align: center;
+    margin-top: 10%;
+}
