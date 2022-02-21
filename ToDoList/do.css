@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    background-color: black;
+    color: white;
+}
+header{
+    padding: 32px 16px;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+header h1{
+    font-size: 38px;
+    font-weight: 300;
+    margin-bottom: 16px;
+    color: lightgray;
+
+}
+#task-form{
+    display: flex;
+}
+#task-input{
+flex: 1 1 0%;
+background-color: lightgray;
+padding: 16px;
+border-radius: 16px;
+margin-right: 16px;
+font-size: 18px;
+}
+#task-input::placeholder{
+color: black;    
+}
+#task-submit{
+    border-radius: 16px;
+    background-color: brown;
+    font-weight: 700;
+    cursor: pointer;
+}
+#task-submit:hover{
+    opacity: 0.8;
+}
+#task-submit:active{
+    opacity: 0.6;
+}
+main{
+    flex: 1 1 0%;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+.task-list{
+    padding: 16px;
+}
+.task-list h2{
+    font-size: 20px;
+    font-weight: 300;
+    color: lightgray;
+    margin-bottom: 16px;
+
+}
+#tasks .task{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    padding: 16px;
+
+
+}
+#tasks .task .content{
+flex: 1 1 0%;
+}
+
+#tasks .task .content .text{
+    border-radius: 12px;
+    font-size: 20px;
+    flex: 1 1 0%;
+
+
+}
+#tasks .task .actions{
+    display: flex;
+    margin: 0px;
+}
+.task .actions button{
+    border-radius: 16px;
+    background-color: brown;
+    font-weight: 700;
+    cursor: pointer;
+}
+.task .actions button:hover{
+    opacity: 0.8;
+}
+.task .actions button:active{
+    opacity: 0.6;
+}
