@@ -6,7 +6,6 @@
 document.querySelector("#inputItem").addEventListener('keypress', function (e) {
     if (e.key === 'Enter') {
        addListItem();
-
     }
 });
 document.querySelector("#active").addEventListener("click", displayActive);
@@ -14,9 +13,11 @@ document.querySelector("#checkAll").addEventListener("click", checkAllItems);
 document.querySelector("#clearChecked").addEventListener("click", clearCompleted);
 document.querySelector("#all").addEventListener("click", displayAll);
 document.querySelector("#completed").addEventListener("click", displayCompleted);
+
 document.querySelector("footer").style.display = "none";
 document.querySelector("#checkAll").style.display = "none";
 
+let li = document.querySelector("#todoListItem");
 
 
 function addListItem() {
