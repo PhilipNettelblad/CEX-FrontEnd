@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vue Quiz</title>
+  <script src="https://unpkg.com/vue@3" defer></script>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+  <main>
+    <ol class="question">
+      <li v-for="question in questions">
+        <p>{{ question.prompt }}</p>
+        <ol class="options">
+          <li v-for="option in question.options">
+            <button
+              type="button"
+              @click="makeGuess(question, option)"
+              :disabled="question.completed"
+              :class="{ correct: isCorrectOption(question, option) }">
+              {{ option }}
+            </button>
+          </li>
+        </ol>
+      </li>
+    </ol>
+    <p>Score: {{ score }} / {{ questions.length }}</p>
+    <button type="button" @click="restartQuiz">Try Again</button>
+  </main>
+</body>
+</html>
